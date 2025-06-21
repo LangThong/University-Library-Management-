@@ -6,10 +6,10 @@ interface Book{
     rating: number;
     total_copies: number;
     available_copies: number;
-    descriotion: string;
+    description: string;
     color: string;
     cover: string;
     video: string;
-    sunmary: string;
-    isLoadedBook: boolean;
+    summary: string;
+    isLoanedBook?: boolean;
 }

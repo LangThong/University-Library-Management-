@@ -4,12 +4,12 @@ import BookOverview from "@/components/BookOverview";
 
 const Home = () => (
   <>
-    <BookOverview {...sampleBooks[0]}/>
+    <BookOverview {...sampleBooks[0]} />
+
     <BookList
       title="Latest Books"
-      books ={sampleBooks}
+      books={sampleBooks}
       constainerClassName="mt-28"
-
     />
   </>
 );
